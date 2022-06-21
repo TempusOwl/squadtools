@@ -1,0 +1,30 @@
+body {
+ background: #0e0f0f;
+ color: rgb(226, 226, 226);
+}
+
+h1 {
+ color: rgb(226, 226, 226);
+}
+
+h2 {
+ color: rgb(226, 226, 226);
+   }
+
+h3 {
+ color: rgb(226, 226, 226);
+   }
+
+P {
+ color: rgb(226, 226, 226);
+}
+
+.content {
+    padding: 2em;
+}
+
+
+.flex-box {
+    display: flex;
+    flex: 1 1 auto;
+  }
