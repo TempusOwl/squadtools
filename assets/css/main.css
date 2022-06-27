@@ -1,30 +1,173 @@
 body {
- background: #0e0f0f;
- color: rgb(226, 226, 226);
+  background: #0e0f0f;
+  color: rgb(226, 226, 226);
 }
 
 h1 {
- color: rgb(226, 226, 226);
+  color: rgb(226, 226, 226);
 }
 
 h2 {
- color: rgb(226, 226, 226);
-   }
+  color: rgb(226, 226, 226);
+}
+
 
 h3 {
- color: rgb(226, 226, 226);
-   }
+  color: rgb(226, 226, 226);
+}
 
 P {
- color: rgb(226, 226, 226);
+  color: rgb(226, 226, 226);
 }
+
+.nav-link {
+  color: #dcdcdc;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: gold
+}
+
+.title-bold {
+  font-weight: bold;
+  padding-left: .25em;
+  font-size: xx-large;
+}
+
+.faction-bar {
+  display: flex;
+  height: 45px;
+}
+
 
 .content {
-    padding: 2em;
+  padding: 2em;
 }
 
+.vehicle-type {
+  font-weight: bold;
+  text-align: center;
+  width: 150px;
+}
 
-.flex-box {
-    display: flex;
-    flex: 1 1 auto;
-  }
+.card {
+  width: 175px;
+}
+
+.vehicle-content {
+  height: 100%;
+  width: 175px;
+}
+
+.ch {
+  height: 25px;
+}
+
+.v-table {
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.v-table th {
+  padding: 5px;
+}
+
+.v-table td {
+  padding: 5px;
+  vertical-align: top;
+  text-align: left;
+}
+
+.map-flex {
+  display: flex;
+}
+
+.map-title {
+  font-weight: bold;
+  margin-top: .5em;
+}
+
+.map-img {
+  width: 33%;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.layer-list {
+  display: flex;
+  margin: 1em;
+}
+
+.layer-button {
+  margin: .5em;
+}
+
+.layers-button {
+  display: flex;
+  margin: 1em;
+}
+
+.modal-content {
+  background-color: #1e1f21;
+  width: 650px;
+}
+
+.modal-body{
+  overflow-y: auto;
+}
+
+.modal-dialog .modal-dialog-scrollable {}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.v-container {
+  display: flex;
+  justify-content: center;
+}
+
+.left-content {
+  display: flex;
+}
+
+.right-content {
+  display: flex
+}
+
+.v-icon {
+  display: inline;
+  width: 50px;
+}
+
+.v-name {
+  display: inline;
+  font-size: 14pt;
+}
+
+.v-count {
+  display: inline;
+  font-size: 12pt;
+  color: grey;
+}
+
+.v-respawn {
+  display: inline;
+  font-size: 10pt;
+  color: orange;
+}
+
+.v-delayed {
+  display: inline;
+  font-size: 10pt;
+  color: red;
+}
+
+.v-notes {
+  padding: 1em;
+}

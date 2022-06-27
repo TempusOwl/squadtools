@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Yehovinka</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Squad Tools</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Factions
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="faction-australian.html">Australian Army</a></li>
+                        <li><a class="dropdown-item" href="#">Example</a></li>
+                        <li><a class="dropdown-item" href="#">Example</a></li>
+                        <li><a class="dropdown-item" href="#">Example</a></li>
+                        <li><a class="dropdown-item" href="#">Example</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Maps
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="yehovinka.html">Yehovinka</a></li>
+                        <li><a class="dropdown-item" href="#">Example</a></li>
+                        <li><a class="dropdown-item" href="#">Example</a></li>
+                        <li><a class="dropdown-item" href="#">Example</a></li>
+                        <li><a class="dropdown-item" href="#">Example</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Vehicles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Guides</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div class="map-flex">
+        <img class="map-img"
+            src="https://static.wikia.nocookie.net/squad_gamepedia/images/2/2b/Alpha_v9_Yehorivka_Map.jpg/revision/latest/scale-to-width-down/1000?cb=20220318014457">
+        <div class="container mt-3">
+            <h2 class="map-title">Yehorivka</h2>
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#home">Description</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#menu1">Playstyle</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#menu2">Stats</a>
+                </li>
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div id="home" class="container tab-pane active"><br>
+                    <p>Based on the eastern european region of Ukraine. Sprawling farm fields with ample trees to cutoff linesights. Map allows you to choose long ranage battles or flank along the trees. It is large map, having FOBs ready is important as running from objective to the next is far from ideal. The map's size encourges vehicle resupply points to be made to cut down on RTB time.</p>
+                </div>
+                <div id="menu1" class="container tab-pane fade"><br>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat.</p>
+                </div>
+                <div id="menu2" class="container tab-pane fade"><br>
+                    <p>Map Size: Super Large @ 4180 x 4180 m (17.5 km²)</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="layer-list">
+        <div class="layer-button">
+            <!-- RAASv2 Modal -->
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#rv1mod">
+                RAASv1
+            </button>
+            <div class="modal fade" id="rv1mod" tabindex="-1" aria-labelledby="rv1modLabel" aria-hidden="true">
+                <div class="modal-dialog .modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="rv1modLabel">Yehorivka RAASv1</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="v-container">
+                                <div class="left-content">
+                                    <div class="modal-body">
+                                        <div class="v-category">Armored BLUEFOR</div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">LAV 6</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./mbt_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">Leopard 2A6M</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed">[20m]</div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">TAPV</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-content">
+                                    <div class="modal-body">
+                                        <div class="v-category">Armored BLUEFOR</div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">LAV 6</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./mbt_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">Leopard 2A6M</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed">[20m]</div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">TAPV</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="v-container">
+                                <div class="left-content">
+                                    <div class="modal-body">
+                                        <div class="v-category">Transport/Logi BLUEFOR</div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">LAV 6</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./mbt_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">Leopard 2A6M</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed">[20m]</div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">TAPV</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-content">
+                                    <div class="modal-body">
+                                        <div class="v-category">Transport/Logi BLUEFOR</div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">LAV 6</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./mbt_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">Leopard 2A6M</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed">[20m]</div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">TAPV</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="v-container">
+                                <div class="left-content">
+                                    <div class="modal-body">
+                                        <div class="v-category">Light Attack BLUEFOR</div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">LAV 6</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./mbt_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">Leopard 2A6M</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed">[20m]</div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">TAPV</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right-content">
+                                    <div class="modal-body">
+                                        <div class="v-category">Light Attack BLUEFOR</div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">LAV 6</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x1</div>
+                                            <div class="v-name"> LAV III C6 RWS</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./mbt_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">Leopard 2A6M</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed">[20m]</div>
+                                        </div>
+                                        <div class="vehicle-inline">
+                                            <img src="./apc_icon.png" class="v-icon"></img>
+                                            <div class="v-count">x2</div>
+                                            <div class="v-name">TAPV</div>
+                                            <div class="v-respawn">15m</div>
+                                            <div class="v-delayed"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+
+
+
+</html>
