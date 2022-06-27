@@ -88,15 +88,38 @@ P {
   margin-top: .5em;
 }
 
-.map-img {
-  width: 33%;
+.map-section {
   margin-left: 2em;
   margin-top: 2em;
 }
 
+.map-img {
+  width: 200px;
+}
+
+.map-buttons {
+  padding: .5em;
+  padding-left: 0.5em;
+  padding-left: 1.75em;
+}
+
+
 .layer-list {
   display: flex;
   margin: 1em;
+}
+
+.layer-table {
+  border-color: gray;
+  border-width: 1.5pt;
+  border-style: dashed;
+}
+
+.layer-table-self {
+  width: 50%;
+  border-color: gray;
+  border-width: 1.5pt;
+  border-style: dashed;
 }
 
 .layer-button {
@@ -110,14 +133,15 @@ P {
 
 .modal-content {
   background-color: #1e1f21;
-  width: 650px;
 }
 
-.modal-body{
+.modal-body {
   overflow-y: auto;
 }
 
-.modal-dialog .modal-dialog-scrollable {}
+.modal-dialog {
+  max-width: 650px;
+}
 
 .red {
   color: red;
@@ -170,4 +194,53 @@ P {
 
 .v-notes {
   padding: 1em;
+}
+
+@media (max-width: 479px) {
+  .map-flex {
+    width: 300px;
+    display: block;
+  }
+
+  .map-img {
+    width: 300px;
+  }
+
+  .map-section {}
+
+  .modal-dialog {
+    max-width: 95%;
+  }
+
+  .v-icon {
+    display: inline;
+    width: 25px;
+  }
+
+  .v-name {
+    display: inline;
+    font-size: 8pt;
+  }
+
+  .v-count {
+    display: inline;
+    font-size: 6pt;
+    color: grey;
+  }
+
+  .v-respawn {
+    display: inline;
+    font-size: 6pt;
+    color: orange;
+  }
+
+  .v-delayed {
+    display: inline;
+    font-size: 8pt;
+    color: red;
+  }
+
+  .v-notes {
+    padding: .5em;
+  }
 }
