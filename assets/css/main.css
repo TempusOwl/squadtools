@@ -45,6 +45,9 @@ P {
   height: 45px;
 }
 
+.guides {
+  padding:2em;
+}
 
 .content {
   padding: 2em;
