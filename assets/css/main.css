@@ -22,6 +22,7 @@ P {
 
 .nav-link {
   color: #dcdcdc;
+  padding: .4rem .4rem;
 }
 
 .navbar-brand {
@@ -33,6 +34,7 @@ P {
   font-weight: bold;
   padding-left: .25em;
   font-size: xx-large;
+  width: 100%;
 }
 
 .faction-bar {
@@ -153,11 +155,11 @@ P {
 
 .v-container {
   display: flex;
-  justify-content: center;
 }
 
 .left-content {
   display: flex;
+  width: 50%;
 }
 
 .right-content {
@@ -166,12 +168,12 @@ P {
 
 .v-icon {
   display: inline;
-  width: 50px;
+  width: 35px;
 }
 
 .v-name {
   display: inline;
-  font-size: 14pt;
+  font-size: 12pt;
 }
 
 .v-count {
@@ -203,7 +205,7 @@ P {
   }
 
   .map-img {
-    width: 300px;
+    width: 250px;
   }
 
   .map-section {}
