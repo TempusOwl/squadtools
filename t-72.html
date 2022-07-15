@@ -87,10 +87,10 @@
         <div class="weak-section">
             <div class="weak-spots">
                 <div class="vehicle-img">
-                    <img class="vic-img" src="./m1a2.png">
+                    <img class="vic-img" src="./t72.png">
                 </div>
                 <div class="vic-buttons">
-                    <a type="button" href="./m1a2.png" class="btn btn-primary btn-sm">Full</a>
+                    <a type="button" href="./t72.png" class="btn btn-primary btn-sm">Full</a>
                 </div>
             </div>
         </div>
@@ -109,10 +109,18 @@
             <!-- Tab panes -->
             <div class="tab-content">
                 <div id="play" class="container tab-pane active"><br>
-                    <p>When playing as the T-72, it plays similarly to the M1A2/M1A1 (see page). The main benefit of the
-                        T-72 is the wire guided TOW system the gunner has, this can be a strong opener. The TOW has a
-                        quiet report, which makes it harder for enemy gunner to spot you giving you more time to reload Sabot. You are limited to two TOWs,
-                        they, thus they should be used against compeating tanks OR high threat vehicles like Bradleys that have TOWs of their own. IFVs like LAVs are not a sigincant threat to use a TOW on. </p>
+                    <p>The T-72 is mid-tier tank, suffering from manoeuvrability issues and realtivly large weak spots.
+                        The T-72 is typically at a disadvantage on most layers when battling face to face. It makes up
+                        for that by being marginally harder kill from the sides (through facing front on is still a
+                        must) and its
+                        ability to suprise attack with the wire guided AGM that the gunner has access to. AGMs (aka
+                        TOWs) are harder to hear/see, allowing you to finish off a disabled tank with your main gun
+                        before being discovered. Opening the attack with the AGM makes the T-72 a glass cannon, you can
+                        quickly deal damage before the enemy knows what hit them. The T-72 carries only 2 AGMs, thus
+                        they should be reserved for large threats like the Abrams or Bradley (because of its own AGM).
+                        T-72 is weakest of all (covential faction) tanks for aggresive gameplay due to the weaknesses
+                        above. T-72 is best utilized in an ambush/defensive role. The T-72 can be aggresive with its AGM
+                        if it is threated, though if you are too close the AGM will not arm itself and bounce making it risk to use within CQB (40m IIRC?). T-72 AGM can hit targets up to 1700 meters away.</p>
                 </div>
                 <div id="about" class="container tab-pane fade"><br>
                     <p>Created in 1970s for the United States Army, it is classified as main battle tank. Seeing use in
@@ -138,6 +146,12 @@
             </div>
             <div class="vi-secondary">
                 <div class="vis-title ilf">Secondary:</div>
+                <div class="vis-name ilf">Refleks Guided Missle</div>
+                <div class="vis-count ilf vgreen">3</div>
+                <div class="vis-reload ilf vred">[8-10s]</div>
+            </div>
+            <div class="vi-secondary">
+                <div class="vis-title ilf">Tertiary:</div>
                 <div class="vis-name ilf">Coax</div>
                 <div class="vis-count ilf vgreen">1x2000</div>
                 <div class="vis-reload ilf vred">[8-10s]</div>
@@ -145,18 +159,18 @@
             <div class="vi-commander">
                 <div class="vis-title ilf vlgrey">Commander:</div>
                 <div class="vis-misc ilf">HMG 12.7mm</div>
-                <div class="vis-count ilf vgreen">1x400</div>
-                <div class="vis-reload ilf vred">[8s]</div>
+                <div class="vis-count ilf vgreen">1x450</div>
+                <div class="vis-reload ilf vred">[20s]</div>
             </div>
             <div class="vi-turret-speed">
                 <div class="vis-title ilf vlgrey">Turret Speed:</div>
-                <div class="vis-misc ilf">~8 seconds per 360.</div>
+                <div class="vis-misc ilf">~12 seconds per 360.</div>
             </div>
             <div class="ilf vi-device">
                 <div class="vis-title ilf vlgrey">Device:</div>
                 <div class="vis-mics ilf">40mm Smoke</div>
                 <div class="vis-count ilf vgreen">x2</div>
-                <div class="vis-reload ilf vred">[8s]</div>
+                <div class="vis-reload ilf vred"></div>
             </div>
         </div>
         <div class="vehicle-data-group">
@@ -168,7 +182,7 @@
             </div>
             <div class="vi-driver">
                 <div class="vis-ctitle ilf vlgrey">Stabilzation:</div>
-                <div class="vis-cname ilf">Both (Gun/CMD)</div>
+                <div class="vis-cname ilf">Both (Gunner Only)</div>
             </div>
             <div class="vi-driver">
                 <div class="vis-ctitle ilf vlgrey">Manoeuvrability:</div>
@@ -176,11 +190,11 @@
             </div>
             <div class="vi-driver">
                 <div class="vis-ctitle ilf vlgrey">Ranging: Laser Ranger:</div>
-                <div class="vis-cname ilf">Both (Gun./CMD)</div>
+                <div class="vis-cname ilf">Gunner Only</div>
             </div>
             <div class="vi-commander">
                 <div class="vis-ctitle ilf vlgrey">Commander:</div>
-                <div class="vis-cname ilf">Optic Only (360 Rotation)</div>
+                <div class="vis-cname ilf">HMG </div>
             </div>
             <div class="vi-aquatic">
                 <div class="vis-ctitle ilf vlgrey">Aquatic:</div>
@@ -188,14 +202,14 @@
             </div>
             <div class="vi-seats">
                 <div class="vis-ctitle ilf vlgrey">Seating:</div>
-                <div class="vis-cname ilf">3 Crewman Operators + 1 (Exposed Gunner)</div>
+                <div class="vis-cname ilf">3 Crewman Operators</div>
             </div>
         </div>
         <div class="vehicle-data-group">
             <div class="vi-title">Extra Infomation</div>
             <div class="vi-quirks">
                 <div class="vis-ctitle ilf vlgrey">Quirks:</div>
-                <div class="vis-cname ilf">Poor defilade when aiming behind.</div>
+                <div class="vis-cname ilf">AGMs can fail to arm (when under 50m) when fighting CQB and will be duds.</div>
             </div>
             <div class="vi-hullhp">
                 <div class="vis-ctitle ilf vlgrey">Hull HP:</div>
@@ -203,7 +217,7 @@
             </div>
             <div class="vi-other-names">
                 <div class="vis-ctitle ilf vlgrey">Other Names:</div>
-                <div class="vis-cname ilf">Tank, MBT (Main Battle Tank), Abrams, M1, M1A2 and M1A1*</div>
+                <div class="vis-cname ilf">Tank, MBT (Main Battle Tank), T-72</div>
             </div>
             <div class="vi-tickets">
                 <div class="vis-ctitle ilf vlgrey">Tickets</div>
@@ -211,7 +225,7 @@
             </div>
             <div class="vi-tickets">
                 <div class="vis-ctitle ilf vlgrey">Respawn:</div>
-                <div class="vis-cname ilf">20 Minutes (typically) [Sometimes Different]</div>
+                <div class="vis-cname ilf">20 Minutes</div>
             </div>
         </div>
     </div>
