@@ -21,6 +21,56 @@ P {
   color: rgb(226, 226, 226);
 }
 
+.news {
+  padding: .40em .40em .40em;
+  background: #ff5401;
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  background: url(../../assets/images/wp9909634.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #fff;
+}
+
+.banner-text {
+  padding-top: 7em;
+  filter: drop-shadow(1px 3px 3px #000);
+  text-align: center;
+  width: 100%;
+}
+
+.banner-h2 {
+  font-weight: bold;
+  font-size: 6em;
+  font-size: 4em;
+  color: gold;
+}
+
+.banner-h3 {
+  font-weight: bold;
+  font-size: 3em;
+  font-size: 2em;
+  color: white;
+}
+
+.top-block{
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 1.5em;
+}
+
+.block-title{
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
 .nav-link {
   color: #dcdcdc;
   padding: .4rem .4rem;
@@ -28,6 +78,10 @@ P {
 
 .navbar-dark .navbar-brand {
   color: #ffb300;
+}
+
+.navbar-brand {
+  font-weight: bold;
 }
 
 .vehicle-title {
@@ -47,7 +101,7 @@ P {
 }
 
 .guides {
-  padding:2em;
+  padding: 2em;
 }
 
 .content {
@@ -308,8 +362,29 @@ P {
   padding-left: 3em;
 }
 
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 2em 1em;
+  text-align: left;
+}
+
 
 @media (max-width: 479px) {
+
+  .banner-text {
+    padding-top: 5em;
+  }
+  .banner-h2 {
+    font-size: 3em;
+  }
+
+  .banner-h3 {
+    font-size: 1.5em;
+  }
+
   .map-flex {
     width: 300px;
     display: block;
@@ -328,7 +403,7 @@ P {
     width: 90%;
   }
 
-  .weak-section{
+  .weak-section {
     margin-bottom: 4em;
   }
 
@@ -339,7 +414,7 @@ P {
   }
 
   .vehicle-data {
-    display:block;
+    display: block;
     margin-bottom: 2em;
     padding: 0;
     margin-top: 0;
