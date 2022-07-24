@@ -13,9 +13,8 @@
 <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="../index.html">Squad Tools</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,9 +30,9 @@
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="../vehicles/m1a2.html">M1A2</a></li>
                         <li><a class="dropdown-item" href="../vehicles/t-72.html">T-72</a></li>
-                        <li><a class="dropdown-item" href="../vehicles/f4034.html">T-72</a></li>
-                        <li><a class="dropdown-item" href="../vehicles/leopard.html">T-72</a></li>
-                        <li><a class="dropdown-item" href="../vehicles/t-62.html">T-72</a></li>               
+                        <li><a class="dropdown-item" href="../vehicles/f4034.html">F4034 Challenger</a></li>
+                        <li><a class="dropdown-item" href="../vehicles/leopard.html">Leopard</a></li>
+                        <li><a class="dropdown-item" href="../vehicles/t-62.html">T-62</a></li>
                         <li>
                             <hr class="dropdown-divider">
                         </li>
@@ -83,20 +82,21 @@
 
 <body>
     <div class="vehicle-title">
-        <h1 style="padding-left:.75em;">M1A2 (Abrams)</h1>
+        <h1 style="padding-left:.75em;">FV4034 (Challenger)</h1>
         <a style="height: fit-content;
         margin-top: 1em;
-        margin-left: 1em;" type="button" href="https://squad.fandom.com/wiki/M1A2"
+        margin-left: 1em;" type="button" href="https://squad.fandom.com/wiki/FV4034"
             class="btn btn-primary btn-sm">Wiki</a>
     </div>
     <div class="map-flex">
         <div class="weak-section">
             <div class="weak-spots">
                 <div class="vehicle-img">
-                    <img class="vic-img" src="../assets/images/infographics/m1a2.png">
+                    <img class="vic-img" src="../assets/images/infographics/fv4034.png">
                 </div>
                 <div class="vic-buttons">
-                    <a type="button" href="../assets/images/infographics/m1a2.png" class="btn btn-primary btn-sm">Full</a>
+                    <a type="button" href="../assets/images/infographics/fv4034.png"
+                        class="btn btn-primary btn-sm">Full</a>
                 </div>
             </div>
         </div>
@@ -115,11 +115,11 @@
             <!-- Tab panes -->
             <div class="tab-content">
                 <div id="play" class="container tab-pane active"><br>
-                    <p>When playing as the Abrams, facing your armor towards the enemy is essential. Conflicts from the rear or side are often deadily.
-                        The sides of the Abrams expose a large ammo rack that can be pen by AP/AGMs/HATs with deadily effect, be cautious of your sides when engaging armor or fighting AGMs/HATs. Abrams is equiped with a ranger finder, this means having
-                        several hundred meters of stand off can be managed with relative ease. The Abrams makes use of a
-                        stablized weapon platform for both commander and gunner, staying mobile is important in urban
-                        areas when against infantry. Abram's speed is its greatest strength, being more mobile </p>
+                    <p>Challenger is a mid-tier tank with okay manoeuvrability and speed. It is equiped with RWS loader
+                        and commander seat, allowing multiple eyes to see all around the tank for threats while
+                        protected from enemy fire. The loader's RWS can kill threats, though its ammo
+                        is limited. The main cannon has some of the lowest bullet drop, giving it the edge in long range
+                        fights.</p>
                 </div>
                 <div id="about" class="container tab-pane fade"><br>
                     <p>Created in 1970s for the United States Army, it is classified as main battle tank. Seeing use in
@@ -132,32 +132,41 @@
         <div class="vehicle-data-group">
             <div class="vi-title">Weapon Systems</div>
             <div class="ilf vi-primary">
-                <div class="vis-title ilf">Primary AP:</div>
+                <div class="vis-title ilf">Primary AP[2]:</div>
                 <div class="vis-name ilf ">120mm Sabot</div>
                 <div class="vis-count ilf vgreen">x21</div>
                 <div class="vis-reload ilf vred">[8s]]</div>
             </div>
             <div class="vi-primary">
-                <div class="vis-title ilf">Primary HE:</div>
+                <div class="vis-title ilf">Primary HE[2]:</div>
                 <div class="vis-name ilf">120mm High Explosive</div>
                 <div class="vis-count ilf vgreen">x21</div>
                 <div class="vis-reload ilf vred">[8s]</div>
             </div>
-            <div class="vi-secondary">
-                <div class="vis-title ilf">Secondary:</div>
-                <div class="vis-name ilf">Coax</div>
-                <div class="vis-count ilf vgreen">1x2000</div>
+            <div class="vi-primary">
+                <div class="vis-title ilf">Primary Smoke[2]:</div>
+                <div class="vis-name ilf">120mm Smoke</div>
+                <div class="vis-count ilf vgreen">x6</div>
                 <div class="vis-reload ilf vred">[8s]</div>
             </div>
+            <div class="vi-secondary">
+                <div class="vis-title ilf">Secondary[2]:</div>
+                <div class="vis-name ilf">Coax</div>
+                <div class="vis-count ilf vgreen">1x2000</div>
+            </div>
             <div class="vi-commander">
-                <div class="vis-title ilf vlgrey">Commander:</div>
+                <div class="vis-title ilf vlgrey">Commander[3]:</div>
                 <div class="vis-misc ilf">HMG 12.7mm</div>
                 <div class="vis-count ilf vgreen">1x400</div>
-                <div class="vis-reload ilf vred">[8s]</div>
+            </div>
+            <div class="vi-commander">
+                <div class="vis-title ilf vlgrey">Loader[4]:</div>
+                <div class="vis-misc ilf">L37A2 RWS</div>
+                <div class="vis-count ilf vgreen">1x750</div>
             </div>
             <div class="vi-turret-speed">
                 <div class="vis-title ilf vlgrey">Turret Speed:</div>
-                <div class="vis-misc ilf">~8 seconds per 360.</div>
+                <div class="vis-misc ilf">~7.5 seconds per 360.</div>
             </div>
             <div class="ilf vi-device">
                 <div class="vis-title ilf vlgrey">Device:</div>
@@ -170,7 +179,7 @@
             <div class="vi-title">Capabilities</div>
             <div class="vi-driver">
                 <div class="vis-ctitle ilf vlgrey">Driver:</div>
-                <div class="vis-cname ilf">Rear Smoke Trail</div>
+                <div class="vis-cname ilf">1 Window w/ Smoke</div>
                 <div class="vis-reload ilf vred">[8s]</div>
             </div>
             <div class="vi-driver">
@@ -179,23 +188,23 @@
             </div>
             <div class="vi-driver">
                 <div class="vis-ctitle ilf vlgrey">Manoeuvrability:</div>
-                <div class="vis-cname ilf">Very Good (for tracked)</div>
+                <div class="vis-cname ilf">Okay (For Tracked)</div>
             </div>
             <div class="vi-driver">
-                <div class="vis-ctitle ilf vlgrey">Ranging: Laser Ranger:</div>
-                <div class="vis-cname ilf">Both (Gun./CMD)</div>
+                <div class="vis-ctitle ilf vlgrey">Ranging:</div>
+                <div class="vis-cname ilf">Laser (Gun./CMD)</div>
             </div>
             <div class="vi-commander">
                 <div class="vis-ctitle ilf vlgrey">Commander:</div>
                 <div class="vis-cname ilf">Optic Only (360 Rotation)</div>
             </div>
             <div class="vi-aquatic">
-                <div class="vis-ctitle ilf vlgrey">Aquatic:</div>
-                <div class="vis-cname ilf">No</div>
+                <div class="vis-ctitle ilf vlgrey">Speed:</div>
+                <div class="vis-cname ilf">0-60 in 8s & 100 TOP</div>
             </div>
             <div class="vi-seats">
                 <div class="vis-ctitle ilf vlgrey">Seating:</div>
-                <div class="vis-cname ilf">3 Crewman Operators + 1 (Exposed Gunner)</div>
+                <div class="vis-cname ilf">2 Crewman + 1 CMD + 1 Loader</div>
             </div>
         </div>
         <div class="vehicle-data-group">
@@ -206,11 +215,11 @@
             </div>
             <div class="vi-hullhp">
                 <div class="vis-ctitle ilf vlgrey">Hull HP:</div>
-                <div class="vis-cname ilf">1200HP (?)</div>
+                <div class="vis-cname ilf">3000HP</div>
             </div>
             <div class="vi-other-names">
                 <div class="vis-ctitle ilf vlgrey">Other Names:</div>
-                <div class="vis-cname ilf">Tank, MBT (Main Battle Tank), Abrams, M1, M1A2 and M1A1*</div>
+                <div class="vis-cname ilf">Tank, MBT (Main Battle Tank), Challenger</div>
             </div>
             <div class="vi-tickets">
                 <div class="vis-ctitle ilf vlgrey">Tickets</div>
