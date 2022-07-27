@@ -23,9 +23,19 @@ P {
 
 .news {
   padding: .40em .40em .40em;
-  background: #ff5401;
+  background: #ff64641c;
   font-weight: bold;
+  border-style: solid;
+  border-color: #602020;
+  border-left: none;
+  border-right: none;
+  font-size: .75em;
 }
+
+
+
+
+
 
 .banner {
   width: 100%;
