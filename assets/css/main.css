@@ -70,13 +70,13 @@ P {
   color: white;
 }
 
-.top-block{
+.top-block {
   padding-left: 2em;
   padding-right: 2em;
   padding-top: 1.5em;
 }
 
-.block-title{
+.block-title {
   font-weight: bold;
   font-size: 2.5em;
 }
@@ -104,6 +104,40 @@ P {
   font-size: xx-large;
   width: 100%;
 }
+
+.faction-data {
+  display: flex;
+  width: fit-content;
+}
+
+.fac-title {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.fac-box {
+  background: black;
+  margin-bottom: 1em;
+  margin-top: 1em;
+
+}
+
+.fac-img {
+  width: 185px;
+}
+
+.fac-name {
+  background: #2c2d35;
+  font-size: .75em;
+  text-align: center;
+  height: 1.75em;
+}
+
+.fac-cat {
+  padding-left: .5em;
+}
+
 
 .faction-bar {
   display: flex;
@@ -189,7 +223,7 @@ P {
 
 .cat-title {
   font-size: 2em;
-font-weight: bold;
+  font-weight: bold;
 }
 
 .vic-flex {
@@ -372,9 +406,7 @@ font-weight: bold;
   width: 500px;
 }
 
-.vic-buttons {
-
-}
+.vic-buttons {}
 
 .footer {
   position: absolute;
@@ -391,6 +423,7 @@ font-weight: bold;
   .banner-text {
     padding-top: 5em;
   }
+
   .banner-h2 {
     font-size: 3em;
   }
@@ -469,5 +502,19 @@ font-weight: bold;
 
   .v-notes {
     padding: .5em;
+  }
+
+  .faction-data {
+    display: block;
+    width: fit-content;
+  }
+  .fac-img {
+    width: 100%;
+  }
+  .title-bold {
+    font-weight: bold;
+    padding-left: .25em;
+    font-size: 1em;
+    width: 100%;
   }
 }
