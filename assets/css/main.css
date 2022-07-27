@@ -118,6 +118,7 @@ P {
   display: flex;
   padding: 2em;
   margin-top: 2em;
+  background: #211f24;
 }
 
 .vehicle-data-group {
@@ -174,6 +175,11 @@ P {
   padding: .5em;
   padding-left: 0.5em;
   padding-left: 1.75em;
+}
+
+.cat-title {
+  font-size: 2em;
+font-weight: bold;
 }
 
 .vic-flex {
@@ -357,9 +363,7 @@ P {
 }
 
 .vic-buttons {
-  margin: -2.5em;
-  padding-left: 0.5em;
-  padding-left: 3em;
+
 }
 
 .footer {
@@ -415,7 +419,7 @@ P {
 
   .vehicle-data {
     display: block;
-    margin-bottom: 2em;
+    margin-top: 1em;
     padding: 0;
     margin-top: 0;
   }
