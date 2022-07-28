@@ -116,16 +116,45 @@ P {
   width: 100%;
 }
 
+.fac-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.fac-title-h2 {
+padding-left: 1em;
+font-size: 2em;
+font-weight: bold;
+}
+
+.fac-title-box {
+  background: rgb(99, 99, 99);
+  height: 2em;
+}
+
+.fac-text {
+  padding: 1em;
+}
+
+.fac-role {
+  width: 400px;
+  background: #0b0b0b;
+  margin-right: .5em;
+  margin-bottom: .5em;
+}
+
+.fac-equip {
+  width: 100%;
+  padding-left: 2em;
+  padding-right: 2em;
+  display: flex;
+}
+
 .faction-data {
   display: flex;
   width: fit-content;
 }
 
-.fac-title {
-  font-weight: bold;
-  text-align: center;
-  padding-top: 1em;
-}
 
 .fac-box {
   background: black;
@@ -535,9 +564,11 @@ P {
     display: block;
     width: fit-content;
   }
+
   .fac-img {
     width: 100%;
   }
+
   .title-bold {
     font-weight: bold;
     padding-left: .25em;
