@@ -47,6 +47,7 @@ P {
   background-attachment: fixed;
   background-size: cover;
   background-color: #fff;
+  background-attachment: local;
 }
 
 .banner-text {
@@ -71,14 +72,24 @@ P {
 }
 
 .top-block {
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 6em;
+  padding-right: 6em;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+
+.mid-block {
+  padding-left: 6em;
+  padding-right: 6em;
   padding-top: 1.5em;
+  padding-bottom: 2em;
+  background:rgb(42, 42, 42)
 }
 
 .block-title {
   font-weight: bold;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .nav-link {
@@ -419,6 +430,22 @@ P {
 
 
 @media (max-width: 479px) {
+
+  .top-block {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+  
+  
+  .mid-block {
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    background:rgb(42, 42, 42)
+  }
 
   .banner-text {
     padding-top: 5em;
