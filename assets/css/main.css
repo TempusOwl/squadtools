@@ -184,6 +184,30 @@ font-weight: bold;
   height: 45px;
 }
 
+.sub-title-box {
+  background: #161616;
+}
+
+.sub-title {
+  text-align: center;
+  padding-top: 0.5em;
+  background: #080808;
+}
+
+.stier {
+  color:gold
+}
+
+
+.atier {
+  color:rgb(255, 0, 0)
+}
+
+
+.btier {
+  color:blue
+}
+
 .guides {
   padding: 2em;
 }
@@ -562,11 +586,17 @@ font-weight: bold;
 
   .faction-data {
     display: block;
-    width: fit-content;
+    width: 100%;
   }
 
   .fac-img {
     width: 100%;
+  }
+
+  .fac-equip{
+    display: block;
+    padding-left: 0em;
+    padding-right: 0em;
   }
 
   .title-bold {
