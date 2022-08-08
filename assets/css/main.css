@@ -134,11 +134,12 @@ font-weight: bold;
 
 .fac-text {
   padding: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 
 .fac-role {
   width: 400px;
-  background: #0b0b0b;
   margin-right: .5em;
   margin-bottom: .5em;
 }
@@ -200,7 +201,7 @@ font-weight: bold;
 
 
 .atier {
-  color:rgb(255, 0, 0)
+  color:rgb(0, 255, 0)
 }
 
 
