@@ -1,6 +1,7 @@
 body {
   background: #0e0f0f;
   color: rgb(226, 226, 226);
+  width: fit-content;
 }
 
 h1 {
@@ -30,6 +31,10 @@ P {
   border-left: none;
   border-right: none;
   font-size: .75em;
+}
+
+.full-nav{
+  width:100%;
 }
 
 
@@ -139,16 +144,15 @@ font-weight: bold;
 }
 
 .fac-role {
-  width: 400px;
-  margin-right: .5em;
-  margin-bottom: .5em;
+  width: 100%;
+  padding-left:.2em;
 }
 
 .fac-equip {
   width: 100%;
+  display: flex;
   padding-left: 2em;
   padding-right: 2em;
-  display: flex;
 }
 
 .faction-data {
@@ -596,8 +600,6 @@ font-weight: bold;
 
   .fac-equip{
     display: block;
-    padding-left: 0em;
-    padding-right: 0em;
   }
 
   .title-bold {
