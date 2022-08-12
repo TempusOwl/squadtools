@@ -4,6 +4,10 @@ body {
   width: fit-content;
 }
 
+a {
+  color: #ffcd60;
+}
+
 h1 {
   color: rgb(226, 226, 226);
   font-weight: bold;
