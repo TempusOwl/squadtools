@@ -26,6 +26,31 @@ P {
   color: rgb(226, 226, 226);
 }
 
+.box-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.box {
+  margin: 0 2em 2em;
+}
+
+.bimg {
+  width: 250px;
+}
+
+.box-text {
+  color: #ffb904;
+  background: #4c4c4c;
+  font-weight: bold;
+  font-size: 12pt;
+  padding: 0.25em;
+  text-align: center;
+}
+
 .news {
   padding: .40em .40em .40em;
   background: #ff64641c;
@@ -37,14 +62,9 @@ P {
   font-size: .75em;
 }
 
-.full-nav{
-  width:100%;
+.full-nav {
+  width: 100%;
 }
-
-
-
-
-
 
 .banner {
   width: 100%;
@@ -93,7 +113,7 @@ P {
   padding-right: 6em;
   padding-top: 1.5em;
   padding-bottom: 2em;
-  background:rgb(42, 42, 42)
+  background: rgb(42, 42, 42)
 }
 
 .block-title {
@@ -131,9 +151,9 @@ P {
 }
 
 .fac-title-h2 {
-padding-left: 1em;
-font-size: 2em;
-font-weight: bold;
+  padding-left: 1em;
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .fac-title-box {
@@ -149,7 +169,7 @@ font-weight: bold;
 
 .fac-role {
   width: 100%;
-  padding-left:.2em;
+  padding-left: .2em;
 }
 
 .fac-equip {
@@ -204,17 +224,17 @@ font-weight: bold;
 }
 
 .stier {
-  color:gold
+  color: gold
 }
 
 
 .atier {
-  color:rgb(0, 255, 0)
+  color: rgb(0, 255, 0)
 }
 
 
 .btier {
-  color:blue
+  color: blue
 }
 
 .guides {
@@ -493,20 +513,41 @@ font-weight: bold;
 
 @media (max-width: 479px) {
 
+  .box-section {
+    display: block;
+    justify-content: center;
+    width: 100%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .bimg {
+    width:100%;
+  }
+
+  .box {
+    margin: 0 0em 0em;
+    width: 100%;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
   .top-block {
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 1em;
     padding-top: 1em;
   }
-  
-  
+
+
   .mid-block {
     padding-left: 2em;
     padding-right: 2em;
     padding-top: 1.5em;
     padding-bottom: 2em;
-    background:rgb(42, 42, 42)
+    background: rgb(42, 42, 42)
   }
 
   .banner-text {
@@ -602,7 +643,7 @@ font-weight: bold;
     width: 100%;
   }
 
-  .fac-equip{
+  .fac-equip {
     display: block;
   }
 
