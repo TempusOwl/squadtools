@@ -149,13 +149,27 @@ P {
 
 .title-bold {
   font-weight: bold;
-  padding-left: .25em;
+  padding-left: .5em;
   font-size: xx-large;
   width: 100%;
 }
 
 .fac-title {
   font-weight: bold;
+  text-align: center;
+  background: #ffb300;
+  margin: 0.5em;
+  font-size: 14pt;
+  text-shadow: 0px 0px 6px #000000e8;
+  text-align: center;
+}
+
+.fac-title-info {
+  font-weight: bold;
+  text-align: center;
+  margin: 0.5em;
+  font-size: 14pt;
+  text-shadow: 0px 0px 6px #000000e8;
   text-align: center;
 }
 
@@ -220,6 +234,9 @@ P {
 .faction-bar {
   display: flex;
   height: 45px;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin: 0.5em;
 }
 
 .sub-title-box {
@@ -658,7 +675,7 @@ P {
 
   .title-bold {
     font-weight: bold;
-    padding-left: .25em;
+    padding-left: .5em;
     font-size: 1em;
     width: 100%;
   }
