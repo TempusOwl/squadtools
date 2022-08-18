@@ -34,7 +34,6 @@ P {
   padding-left: 1em;
   padding-right: 1em;
   margin-bottom: 2em;
-  height: 300px;
 }
 
 
@@ -108,11 +107,12 @@ P {
 }
 
 .top-block {
-  padding-left: 6em;
-  padding-right: 6em;
+  padding-left: 25em;
+  padding-right: 25em;
   padding-bottom: 1em;
   padding-top: 1em;
   border-top: 5px solid #ffaf00;
+  text-align: center;
 }
 
 
@@ -264,7 +264,7 @@ P {
   display: flex;
   padding: 2em;
   margin-top: 2em;
-  background: #211f24;
+  background: #212529;;
 }
 
 .vehicle-data-group {
@@ -556,7 +556,7 @@ P {
     padding-right: 2em;
     padding-top: 1.5em;
     padding-bottom: 2em;
-    background: rgb(42, 42, 42)
+    background: #212529;
   }
 
   .banner-text {
