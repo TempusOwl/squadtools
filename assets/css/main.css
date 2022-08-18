@@ -157,11 +157,12 @@ P {
 .fac-title {
   font-weight: bold;
   text-align: center;
-  background: #ffb300;
+  background: #a9a9a9;
   margin: 0.5em;
   font-size: 14pt;
-  text-shadow: 0px 0px 6px #000000e8;
+  color: #2b2b2b;
   text-align: center;
+  border-bottom: 3px solid rgb(85 85 85);
 }
 
 .fac-title-info {
