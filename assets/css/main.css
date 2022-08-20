@@ -117,10 +117,26 @@ padding-bottom: 1em;
 padding-top: 1em;
 }
 
+.guides-box-large {
+  display: block;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  }
+
 .gbox {
   padding: 0.5em;
   background: #222222;
-  margin-left: .5em;
+  margin-left: 0.5em;
+  width: fit-content;
+}
+
+
+.gbox-large {
+  padding: 0.5em;
+  background: #222222;
+  margin-left: 0.5em;
+  width: fit-content;
+  display:block;
 }
 
 .gbox-img {
