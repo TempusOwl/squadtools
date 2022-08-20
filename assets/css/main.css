@@ -107,21 +107,21 @@ P {
 }
 
 .dropdown-item {
-  background:#242424;
-  color:rgb(219, 219, 219);
+  background: #242424;
+  color: rgb(219, 219, 219);
 }
 
 .guides-box {
-display: flex;
-padding-bottom: 1em;
-padding-top: 1em;
+  display: flex;
+  padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 .guides-box-large {
   display: block;
   padding-bottom: 1em;
   padding-top: 1em;
-  }
+}
 
 .gbox {
   padding: 0.5em;
@@ -136,20 +136,20 @@ padding-top: 1em;
   background: #222222;
   margin-left: 0.5em;
   width: fit-content;
-  display:block;
+  display: block;
 }
 
 .gbox-img {
-  width:175px
+  width: 175px
 }
 
 .gbox-img-large {
-width:1000px
+  width: 1000px
 }
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color:#171719!important;
+  background-color: #171719 !important;
   border-bottom: 3px solid #ffaf00;
 }
 
@@ -166,9 +166,9 @@ width:1000px
   list-style: none;
   background-color: #242424;
   background-clip: padding-box;
-  border: 1pxsolidrgba(0,0,0,.15);
+  border: 1pxsolidrgba(0, 0, 0, .15);
   border-radius: 0.25rem;
-  color:rgb(219, 219, 219);
+  color: rgb(219, 219, 219);
 }
 
 .top-block {
@@ -613,6 +613,20 @@ width:1000px
 
 @media (max-width: 479px) {
 
+  .gbox-img-large {
+    width: 325px;
+  }
+
+  .gbox-img {
+    width: 250px;
+  }
+
+  .guides-box {
+    display: block;
+    padding-bottom: 1em;
+    padding-top: 1em;
+  }
+
   .box-section {
     display: block;
     justify-content: center;
@@ -696,6 +710,7 @@ width:1000px
     margin-top: 1em;
     padding: 0;
     margin-top: 0;
+    padding-bottom: .5em;
   }
 
 
