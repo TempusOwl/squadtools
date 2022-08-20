@@ -127,6 +127,10 @@ padding-top: 1em;
   width:175px
 }
 
+.gbox-img-large {
+width:1000px
+}
+
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color:#171719!important;
