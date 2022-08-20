@@ -111,6 +111,22 @@ P {
   color:rgb(219, 219, 219);
 }
 
+.guides-box {
+display: flex;
+padding-bottom: 1em;
+padding-top: 1em;
+}
+
+.gbox {
+  padding: 0.5em;
+  background: #222222;
+  margin-left: .5em;
+}
+
+.gbox-img {
+  width:175px
+}
+
 .bg-dark {
   --bs-bg-opacity: 1;
   background-color:#171719!important;
