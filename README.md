@@ -1,6 +1,7 @@
 # Squad Tools - Resources For The Squad Community!
   - The entire code behind the website https://squadtools.tempusowl.com
   - Info about the game Squad can be found on https://joinsquad.com/ 
+  - All of this data was tested on a live v3.1 server. Not the training range!
 
 # Currently Contains
  - Vehicle Identifcation Images & w/ Their Respective Callout Category (and their alternative names)
