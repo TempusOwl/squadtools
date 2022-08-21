@@ -17,7 +17,7 @@
  - Troubleshooting Section For Dealing Common Squad Bugs
  
 ## Why was this website created?
-I originally started creating guides for the Squad community, most notably my ~40 page SL guide. I wanted somewhere to host it, thus I made a basic website. In creating that guide and I verified all data I put in it, and in that I found several prominent guides/resources were incorrect about ammo racking/armor combat. I found many incorrect opinions spread through the community person to person. Like shooting turret ring is the fastest way to kill the tank with sabot, while maybe a few years ago it was it is no longer the case. I wanted to put out the facts all in once place, and correct some of the varying opinions that exist in the squad community. Now, my goal with squad tools is to bridge the gap between fact/stats and strategy. I want squad tools to be a resource to help both new and veteran players, alike, to learn from.
+I originally started creating guides for the Squad community, most notably my ~40 page SL guide. I wanted somewhere to host it, thus I made a basic website. In creating that guide and I verified all data I put in it, and in that I found several prominent guides/resources were incorrect about ammo racking/armor combat. This lead me to wanting to put all the facts all in once place, and correct some of the varying opinions that exist in the squad community. Now, my goal with squad tools is to bridge the gap between fact/stats and strategy. I want squad tools to be a resource to help both new and veteran players, alike, to learn from.
 
 This project is not monetized in any way.
 
