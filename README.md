@@ -12,10 +12,12 @@ This project is not monetized in any way.
  - Vehicle / Infantry Identifcation Pages w/ "slang" names.
  - Basic Faction Strengths vs. Weaknesses Overview
  - Detailed Tank Stats / Weak Spots
+ - Tanks - How To Use Their Optic
  - Basic IFV Stats
  - Advanced Guides (For SLs)
  - Basic Guides (For New Players)
- - Anti-Tank / Rifle Optic/Ranging Infographics
+ - Anti-Tank - How To Use Their Optics
+ - Rifles - How To Use Their Optic
  - Troubleshooting Section For Dealing Common Squad Bugs
 
 ## How can I contribute? 
