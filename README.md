@@ -11,6 +11,6 @@ This project is not monetized in any way.
 
 
 ## How can I contribute? 
-  For factual infomation, like vehicle stats/images/factions. I have uploaded all the source files to google drive https://drive.google.com/drive/folders/1NyRLPqD4B9n1sKOxqRKlll2oQ61wI5wo?usp=sharing . You will need Photoshop to open/edit them.
-  For guides contributions, dicuss things within an issue rather than create pulls. If people start making their own guides it gets rather complicated on what too include, or not.
-  
+  - For factual infomation, like vehicle stats/images/factions. I have uploaded all the source files to google drive https://drive.google.com/drive/folders/1NyRLPqD4B9n1sKOxqRKlll2oQ61wI5wo?usp=sharing . You will need Photoshop to open/edit them.
+  - For guide contributions, dicuss things within an issue rather than create pulls. If people start making/editing guides it gets rather complicated on what too include, or not. I may add a section for community guides in the future, though that is not priority for now.
+ 
