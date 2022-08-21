@@ -1,8 +1,5 @@
 # Squad Tools - Resource For The JoinSquad.com Community!
-
-## The code behind the website https://squadtools.tempusowl.com
-
-## 
+The code behind the website https://squadtools.tempusowl.com
 It's a website to educate/spread info to the Squad Community. Info about the game Squad can be found on https://joinsquad.com/ 
 
 ## Why was this website created?
