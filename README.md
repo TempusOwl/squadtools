@@ -8,9 +8,10 @@ I originally started creating guides for the Squad community, most notably my ~4
 
 This project is not monetized in any way.
 
-# Contains
- - Vehicle / Infantry Identifcation Pages w/ "slang" names.
- - Basic Faction Strengths vs. Weaknesses Overview
+# Currently Contains
+ - Vehicle Identifcation Images & w/ Their Respective Callout Category (and their alternative names)
+ - Basic Vehicle Stats [All Vehicles] (seats/ammo/spawn timer/tickets)
+ - Basic Faction Strength vs. Weakness Overview
  - Detailed Tank Stats / Weak Spots
  - Tanks - How To Use Their Optic
  - Basic IFV Stats
