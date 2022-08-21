@@ -223,6 +223,31 @@ P {
   width: 100%;
 }
 
+.camo-type{
+width:fit-content;
+}
+
+
+.camo-img {
+  width: 500px;
+    padding-left: 2em;
+}
+
+.camo-title {
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  background: rgb(65, 65, 65);
+  margin-left: 1.5em;
+}
+
+.fac-ident{
+  padding-bottom: 2em;
+  display: flex;
+}
+
+
+
 .fac-title {
   font-weight: bold;
   text-align: center;
@@ -663,6 +688,26 @@ P {
     padding-bottom: 0.1em;
     border-top: 5px solid #505050;
     background: rgb(42, 42, 42);
+  }
+
+  .fac-ident{
+    margin: 2em;
+    display: block;
+  }
+
+  .camo-img {
+    width: 100%;
+    padding-left: 0em;
+  }
+
+  .camo-type{
+    width: fit-content;
+    padding-bottom: 1.5em;
+  }
+
+  .camo-title{
+    width: 100%;
+    margin-left: 0em;
   }
 
   .banner-text {
