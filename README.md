@@ -18,7 +18,7 @@
  - Troubleshooting Section For Dealing Common Squad Bugs
  
 ## Why was this website created?
-I originally started creating guides for the Squad community, most notably my ~40 page SL guide. I wanted somewhere to host it, thus I made a basic website. In creating that guide I verified all data I put in it, and I found several prominent guides/resources were incorrect about ammo racking/armor combat. This lead me to wanting to put all the corrected facts all in once place. The site become much larger focus, and now my goal with squad tools is to bridge the gap between facts/stats and strategy. I want SquadTools to be a resource to help both new and veteran players, alike to learn from.
+I originally started creating guides for the Squad community, most notably my ~40 page SL guide. I wanted somewhere to host it, thus I made a basic website. In creating that guide I verified all data I put in it, and I found several prominent guides/resources were incorrect about ammo racking/armor combat. This lead me to wanting to put all the corrected facts all in once place. The site's focus became much larger, and now my goal with squad tools is to bridge the gap between facts/stats and strategy. I want SquadTools to be a resource to help both new and veteran players, alike to learn from. Below is full list of stuff found on the site.
 
 This project is not monetized in any way.
 
