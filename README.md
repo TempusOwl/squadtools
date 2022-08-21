@@ -27,7 +27,7 @@ This project is not monetized in any way.
  # Major Contributors
  Thank you for individuals below that helped make this project possible!
   - LiQ Gaming https://liqgaming.com/ (For All The Feedback)
-  - SquadMaps.com https://github.com/Napster653/SquadMaps
-  - The older vehicle images https://squad.fandom.com/wiki/Vehicles (various authors).
-  - SquadMortar.xyz https://gitlab.com/squadstrat/squadmortar
+  - SquadMaps.com https://github.com/Napster653/SquadMaps (Running A Fork)
+  - The older vehicle images https://squad.fandom.com/wiki/Vehicles (Various Authors).
+  - SquadMortar.xyz https://gitlab.com/squadstrat/squadmortar (Linking To It)
   
