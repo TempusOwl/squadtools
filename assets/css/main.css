@@ -639,7 +639,7 @@ width:fit-content;
 @media (max-width: 479px) {
 
   .gbox-img-large {
-    width: 325px;
+    width: 250px;
   }
 
   .gbox-img {
