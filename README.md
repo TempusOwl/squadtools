@@ -2,6 +2,7 @@
   - The entire code behind the website https://squadtools.tempusowl.com
   - Info about the game Squad can be found on https://joinsquad.com/ 
   - All of this data was tested or verified on a live v3.1 server. Not the training range!
+  - This project is still work in progress, I plan to improve it over time and update it every patch.
 
 # Currently Contains
  - Vehicle Identifcation Images & w/ Their Respective Callout Category (and their alternative names)
