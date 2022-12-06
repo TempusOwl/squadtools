@@ -43,8 +43,7 @@ P {
 }
 
 .bimg {
-  width: 250px;
-
+  width: 200px;
 }
 
 .box-text {
@@ -223,14 +222,14 @@ P {
   width: 100%;
 }
 
-.camo-type{
-width:fit-content;
+.camo-type {
+  width: fit-content;
 }
 
 
 .camo-img {
   width: 500px;
-    padding-left: 2em;
+  padding-left: 2em;
 }
 
 .camo-title {
@@ -241,7 +240,7 @@ width:fit-content;
   margin-left: 1.5em;
 }
 
-.fac-ident{
+.fac-ident {
   padding-bottom: 2em;
   display: flex;
 }
@@ -627,14 +626,183 @@ width:fit-content;
 .vic-buttons {}
 
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem 2em 1em;
-  text-align: left;
+  height: 24px;
+  width: 100%;
+  background-image: none;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  position: fixed;
+  bottom: 0pt;
+  left: 0pt;
+  background-color: rgb(12, 12, 12);
+  border-top: #000;
 }
 
+.footer_contents {
+  height:24px;
+  width: 100%; 
+  margin:auto;
+  text-align: center;
+}
+
+.container.mt-3 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+
+@media screen and (min-width: 4001px) {
+  .fac-img {
+    width: 300px;
+  }
+
+  .fac-name {
+    background: #2c2d35;
+    font-size: 1.25em;
+    text-align: center;
+    height: 1.75em;
+  }
+
+  .sub-title-box {
+    background: #262626;
+    font-size: 16pt;
+  }
+
+  .fac-title {
+    font-weight: bold;
+    text-align: center;
+    background: #121212;
+    margin: 0.5em;
+    padding: 0.25em;
+    font-size: 16pt;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 3px solid rgb(85 85 85);
+    border: 1px solid rgb(85 85 85);
+  }
+
+  .vic-img {
+    width: 1000px;
+  }
+
+  .bimg {
+    width: 350px;
+  }
+
+  .box-text {
+    color: #ffb904;
+    background: #4c4c4c;
+    font-weight: 700;
+    font-size: 16pt;
+    padding: 0.25em;
+    text-align: center;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (min-width: 2501px) and (max-width: 4000px) {
+  .fac-img {
+    width: 300px;
+  }
+
+  .fac-name {
+    background: #2c2d35;
+    font-size: 1.25em;
+    text-align: center;
+    height: 1.75em;
+  }
+
+  .sub-title-box {
+    background: #262626;
+    font-size: 16pt;
+  }
+
+  .fac-title {
+    font-weight: bold;
+    text-align: center;
+    background: #121212;
+    margin: 0.5em;
+    padding: 0.25em;
+    font-size: 16pt;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 3px solid rgb(85 85 85);
+    border: 1px solid rgb(85 85 85);
+  }
+
+  .vic-img {
+    width: 1000px;
+  }
+
+  .bimg {
+    width: 350px;
+  }
+
+  .box-text {
+    color: #ffb904;
+    background: #4c4c4c;
+    font-weight: 700;
+    font-size: 16pt;
+    padding: 0.25em;
+    text-align: center;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (min-width: 2000px) and (max-width: 2450px) {
+  .fac-img {
+    width: 250px;
+  }
+
+  .fac-name {
+    background: #2c2d35;
+    font-size: 1.25em;
+    text-align: center;
+    height: 1.75em;
+  }
+
+  .sub-title-box {
+    background: #262626;
+    font-size: 16pt;
+  }
+
+  .fac-title {
+    font-weight: bold;
+    text-align: center;
+    background: #121212;
+    margin: 0.5em;
+    padding: 0.25em;
+    font-size: 16pt;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 3px solid rgb(85 85 85);
+    border: 1px solid rgb(85 85 85);
+  }
+
+  .vic-img {
+    width: 1000px;
+  }
+
+  .bimg {
+    width: 350px;
+  }
+
+  .box-text {
+    color: #ffb904;
+    background: #4c4c4c;
+    font-weight: 700;
+    font-size: 16pt;
+    padding: 0.25em;
+    text-align: center;
+    opacity: 1;
+  }
+
+}
+
+@media screen and (max-width: 1599px) {}
 
 @media (max-width: 479px) {
 
@@ -690,7 +858,7 @@ width:fit-content;
     background: rgb(42, 42, 42);
   }
 
-  .fac-ident{
+  .fac-ident {
     margin: 2em;
     display: block;
   }
@@ -700,12 +868,12 @@ width:fit-content;
     padding-left: 0em;
   }
 
-  .camo-type{
+  .camo-type {
     width: fit-content;
     padding-bottom: 1.5em;
   }
 
-  .camo-title{
+  .camo-title {
     width: 100%;
     margin-left: 0em;
   }
