@@ -448,12 +448,21 @@ P {
 }
 
 .weak-section {
-  margin-left: 2em;
   display: inline-flex;
+  width:100%;
+}
+
+.weak-spots{
+  padding-right:1em;
 }
 
 .vehicle-image {
   width: fit-content;
+}
+
+.v-section {
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .layer-list {
