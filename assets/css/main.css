@@ -25,6 +25,8 @@ h3 {
 
 P {
   color: rgb(226, 226, 226);
+  padding: 0;
+  margin: 0;
 }
 
 .box-section {
