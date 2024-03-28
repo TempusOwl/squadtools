@@ -12,15 +12,17 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16x16.png">
     <link rel="manifest" href="../assets/site.webmanifest">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QS4JSSBHFZ"></script><script>
-window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-QS4JSSBHFZ');
-</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QS4JSSBHFZ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-QS4JSSBHFZ');
+    </script>
 </head>
 
-<div class="news">Tanks are updated, INS faction info will be updated soon!<a href="https://github.com/TempusOwl/squadtools/issues/new">Github
+<div class="news">Sorry for the delay, still rewritting large parts of the site before updates. Links are fixed now as
+    of 7.2.1!<a href="https://github.com/TempusOwl/squadtools/issues/new">Github
         Issues</a></div>
 
 <body>
@@ -53,7 +55,7 @@ window.dataLayer = window.dataLayer || [];
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item"
-                                    href="https://docs.google.com/document/d/1oG8JDQp0Ek0I4E6OsRm4PS9X1T48p3x24HMdEC-vgDQ/edit?usp=sharing">IFV/APCs</a>
+                                    href="https://docs.google.com/spreadsheets/d/1_yR6K6eN6RzJne-JSzaEVTSCF1QXcUMQqACtl8qxzBE/edit?usp=sharing">Vehicle Combat Charts</a>
                             </li>
                         </ul>
                     </li>
@@ -70,7 +72,8 @@ window.dataLayer = window.dataLayer || [];
                             <li><a class="dropdown-item" href="../factions/irregular.html">Irregular</a></li>
                             <li><a class="dropdown-item" href="../factions/middle-eastern-alliance.html">Middle Eastern
                                     Alliance</a></li>
-                            <li><a class="dropdown-item" href="../factions/peoples_liberation_army.html">People's Liberation Army</a></li>
+                            <li><a class="dropdown-item" href="../factions/peoples_liberation_army.html">People's
+                                    Liberation Army</a></li>
                             <li><a class="dropdown-item" href="../factions/russia.html">Russian Army</a></li>
                             <li><a class="dropdown-item" href="../factions/us-army.html">US Army</a></li>
                             <li><a class="dropdown-item" href="../factions/us-marines.html">US Marines</a></li>
@@ -86,15 +89,16 @@ window.dataLayer = window.dataLayer || [];
                             Guides & Tools
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../guides/basic-guides.html">Gameplay Guides</a>
+                            <li><a class="dropdown-item" href="../guides/gameplay.html">Gameplay Guides</a>
                             </li>
-                            <li><a class="dropdown-item" href="../guides/advanced-guides.html">Advanced Guides</a></li>
-                            <li><a class="dropdown-item" href="../guides/map-guides.html">Map Guides</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://docs.google.com/document/d/1yqjieAYuK3Ieir__B_ZBvNDkPTPoT5w_u1D1WV8vn4Y/edit?usp=sharing">Squad
+                                    Leading</a>
+                            </li>
                             <li><a class="dropdown-item" href="../guides/optic-guides.html">Optics & Ranging</a></li>
-<li>
+                            <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="https://squadmortar.xyz/">Mortar Calculator</a></li>
                             <li><a class="dropdown-item" href="../guides/troubleshooting.html">Troubleshooting &
                                     Bugs</a>
                             </li>
@@ -104,86 +108,99 @@ window.dataLayer = window.dataLayer || [];
             </div>
         </div>
     </nav>
-    <header>
-    </header>
-    <div class="content">
-        <div class="faction-bar">
-            <img src="../assets/images/aus/aus_flag.webp" alt="Girl in a jacket">
-            <div class="faction-name">
-                <h2 class="title-bold">Australian Faction (Bluefor)</h2>
-            </div>
-        </div>
-        <div class="faction-data">
-            <div class="fac-cat"">
-                <div class=" fac-title">Logisitcs</div>
+    <div class="faction-bar">
+        <img src="../assets/images/aus/aus_flag.webp">
+        <h2 class="fac-title-bold">Australian Faction (Bluefor)</h2>
+    </div>
+    </div>
+    <div class="faction-data">
+        <div class="fac-category">
+            <div class=" fac-title">Logisitcs</div>
             <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\aus\aus_logi.png" alt="Girl in a jacket">
+                <div class="fac-image-container">
+                    <div class="fac-image-container">
+                        <img src="..\assets\images\aus\aus_logi.png">
+                    </div>
+                </div>
                 <div class="fac-name">
                     RMMVA Logistics
                 </div>
             </div>
         </div>
-        <div class="fac-cat">
+        <div class="fac-category">
             <div class="fac-title">Transports</div>
             <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\aus\aus_transport.png" alt="Girl in a jacket">
+                <div class="fac-image-container">
+                    <img src="..\assets\images\aus\aus_transport.png">
+                </div>
                 <div class="fac-name">
                     RMMVA Transport
                 </div>
             </div>
         </div>
-        <div class="fac-cat">
+        <div class="fac-category">
             <div class="fac-title">Light Attack</div>
             <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\aus\aus_PMV-MAg-58x3.png" alt="Girl in a jacket">
+                <div class="fac-image-container">
+                    <img src="..\assets\images\aus\aus_PMV-MAg-58x3.png">
+                </div>
                 <div class="fac-name">
                     PMV Mag-58 x 3 (Bushmaster)
                 </div>
             </div>
             <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\aus\aus_rws2pmv.png" alt="Girl in a jacket">
+                <div class="fac-image-container">
+                    <img src="..\assets\images\aus\aus_rws2pmv.png">
+                </div>
                 <div class="fac-name">
                     PMV RWS M2 (Bushmaster)
                 </div>
             </div>
         </div>
-        <div class="fac-cat">
+        <div class="fac-category">
             <div class="fac-title">IFV</div>
             <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\aus\aus_aslav.png" alt="Girl in a jacket">
+                <div class="fac-image-container">
+                    <img src="..\assets\images\aus\aus_aslav.png">
+                </div>
                 <div class="fac-name">
                     ASLAV
                 </div>
             </div>
         </div>
-        <div class="fac-cat">
+        <div class="fac-category">
             <div class="fac-title">MBT</div>
             <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\aus\aus_m1a1.png" alt="Girl in a jacket">
+                <div class="fac-image-container">
+                    <img src="..\assets\images\aus\aus_m1a1.png">
+                </div>
                 <div class="fac-name">
                     M1A1 (Abrams)
                 </div>
             </div>
         </div>
-        <div class="fac-cat">
+        <div class="fac-category">
             <div class="fac-title">Heli</div>
             <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\aus\aus_uh60m.png" alt="Girl in a jacket">
+                <div class="fac-image-container">
+                    <img src="..\assets\images\aus\aus_uh60m.png">
+                </div>
                 <div class="fac-name">
                     UH-60M (Blackhawk)
                 </div>
             </div>
             <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\aus\aus_mh70.png" alt="Girl in a jacket">
+                <div class="fac-image-container">
+                    <img src="..\assets\images\aus\aus_mh70.png">
+                </div>
                 <div class="fac-name">
                     MRH-90
                 </div>
             </div>
         </div>
     </div>
-    </div>
-
-    <div class="fac-title-h2">About Faction</div>
+    </div>   
+ <div class="fac-title-big">About Faction</div>
     <div class="fac-equip">
         <div class="fac-role">
             <div class="fac-title-box">
@@ -245,9 +262,9 @@ window.dataLayer = window.dataLayer || [];
         </div>
     </div>
 
-    <div class="fac-title-h2">Faction Identifcation</div>
+    <div class="fac-title-big">Faction Identifcation</div>
     <div class="fac-ident">
-        <div class="camo-type">
+        <div class="fac-camo-type">
             <div class="camo-title">General Camo</div>
             <a href="../assets/images/aus/aus_camo_urban.png">
                 <img class="camo-img" src="../assets/images/aus/aus_camo_urban.png">

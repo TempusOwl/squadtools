@@ -24,7 +24,7 @@
     </script>
 </head>
 
-<div class="news">Tanks are updated, INS faction info will be updated soon!<a
+<div class="news">Sorry for the delay, still rewritting large parts of the site before updates. Working on 7.2.1! <a
         href="https://github.com/TempusOwl/squadtools/issues/new">Github
         Issues</a></div>
 
@@ -59,7 +59,7 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item"
-                                    href="https://docs.google.com/document/d/1oG8JDQp0Ek0I4E6OsRm4PS9X1T48p3x24HMdEC-vgDQ/edit?usp=sharing">IFV/APCs</a>
+                                    href="https://docs.google.com/spreadsheets/d/1_yR6K6eN6RzJne-JSzaEVTSCF1QXcUMQqACtl8qxzBE/edit?usp=sharing">Vehicle Combat Charts</a>
                             </li>
                         </ul>
                     </li>
@@ -93,15 +93,14 @@
                             Guides & Tools
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../guides/basic-guides.html">Gameplay Guides</a>
+                            <li><a class="dropdown-item" href="../guides/gameplay.html">Gameplay Guides</a>
                             </li>
-                            <li><a class="dropdown-item" href="../guides/advanced-guides.html">Advanced Guides</a></li>
-                            <li><a class="dropdown-item" href="../guides/map-guides.html">Map Guides</a></li>
+
                             <li><a class="dropdown-item" href="../guides/optic-guides.html">Optics & Ranging</a></li>
 <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="https://squadmortar.xyz/">Mortar Calculator</a></li>
+                            <li><a class="dropdown-item" href="https://squadcalc.app/">Mortar Calculator</a></li>
                             <li><a class="dropdown-item" href="../guides/troubleshooting.html">Troubleshooting &
                                     Bugs</a>
                             </li>
@@ -119,9 +118,9 @@
             class="btn btn-primary btn-sm">Wiki</a>
     </div>
     <div class="map-flex">
-        <div class="weak-section">
-            <div class="weak-spots">
-                <div class="vehicle-img">
+        <div class="veh-weak-section">
+            <div class="veh-weak-spots">
+                <div class="veh-img">
                     <a type="button" href="../assets/images/infographics/t62.png">
                         <img class="vic-img" src="../assets/images/infographics/t62.png">
                     </a>
@@ -162,99 +161,99 @@
     </div>
     <div class="vehicle-data">
         <div class="vehicle-data-group">
-            <div class="vi-title">Weapon Systems</div>
-            <div class="ilf vi-primary">
-                <div class="vis-title ilf">Primary AP:</div>
-                <div class="vis-name ilf ">115mm Sabot</div>
-                <div class="vis-count ilf vgreen">x12</div>
-                <div class="vis-reload ilf vred">[9s]</div>
+            <div class="veh-title">Weapon Systems</div>
+            <div class="ilf veh-primary">
+                <div class="veh-stat-title ilf">Primary AP:</div>
+                <div class="veh-stat-name ilf ">115mm Sabot</div>
+                <div class="veh-stat-count ilf vgreen">x12</div>
+                <div class="veh-stat-reload ilf vred">[9s]</div>
             </div>
-            <div class="vi-primary">
-                <div class="vis-title ilf">Primary HE:</div>
-                <div class="vis-name ilf">115mm High Explosive</div>
-                <div class="vis-count ilf vgreen">x8 </div>
-                <div class="vis-reload ilf vred">[9s]</div>
+            <div class="veh-primary">
+                <div class="veh-stat-title ilf">Primary HE:</div>
+                <div class="veh-stat-name ilf">115mm High Explosive</div>
+                <div class="veh-stat-count ilf vgreen">x8 </div>
+                <div class="veh-stat-reload ilf vred">[9s]</div>
             </div>
-            <div class="vi-primary">
-                <div class="vis-title ilf">Primary Frag:</div>
-                <div class="vis-name ilf">115mm Frag</div>
-                <div class="vis-count ilf vgreen">x20</div>
-                <div class="vis-reload ilf vred">[9s]</div>
+            <div class="veh-primary">
+                <div class="veh-stat-title ilf">Primary Frag:</div>
+                <div class="veh-stat-name ilf">115mm Frag</div>
+                <div class="veh-stat-count ilf vgreen">x20</div>
+                <div class="veh-stat-reload ilf vred">[9s]</div>
             </div>
             <div class="vi-secondary">
-                <div class="vis-title ilf">Secondary:</div>
-                <div class="vis-name ilf">Coax</div>
-                <div class="vis-count ilf vgreen">1x2000</div>
+                <div class="veh-stat-title ilf">Secondary:</div>
+                <div class="veh-stat-name ilf">Coax</div>
+                <div class="veh-stat-count ilf vgreen">1x2000</div>
             </div>
             <div class="vi-commander">
-                <div class="vis-title ilf vlgrey">Loader:</div>
+                <div class="veh-stat-title ilf vlgrey">Loader:</div>
                 <div class="vis-misc ilf">6x100(INS) 2x150 (MEA)</div>
             </div>
-            <div class="vi-turret-speed">
-                <div class="vis-title ilf vlgrey">Turret Speed:</div>
+            <div class="veh-turret-speed">
+                <div class="veh-stat-title ilf vlgrey">Turret Speed:</div>
                 <div class="vis-misc ilf">~18 seconds per 360.</div>
             </div>
         </div>
         <div class="vehicle-data-group">
-            <div class="vi-title">Capabilities</div>
-            <div class="vi-driver">
-                <div class="vis-ctitle ilf vlgrey">Driver:</div>
-                <div class="vis-cname ilf">Rear Smoke Trail</div>
-                <div class="vis-reload ilf vred">[8s]</div>
+            <div class="veh-title">Capabilities</div>
+            <div class="veh-driver">
+                <div class="veh-ctitle ilf vlgrey">Driver:</div>
+                <div class="veh-cname ilf">Rear Smoke Trail</div>
+                <div class="veh-stat-reload ilf vred">[8s]</div>
             </div>
-            <div class="vi-driver">
-                <div class="vis-ctitle ilf vlgrey">Stabilzation:</div>
-                <div class="vis-cname ilf">Main Gun Only</div>
+            <div class="veh-driver">
+                <div class="veh-ctitle ilf vlgrey">Stabilzation:</div>
+                <div class="veh-cname ilf">Main Gun Only</div>
             </div>
-            <div class="vi-driver">
-                <div class="vis-ctitle ilf vlgrey">Manoeuvrability:</div>
-                <div class="vis-cname ilf">Horrible</div>
+            <div class="veh-driver">
+                <div class="veh-ctitle ilf vlgrey">Manoeuvrability:</div>
+                <div class="veh-cname ilf">Horrible</div>
             </div>
-            <div class="vi-driver">
-                <div class="vis-ctitle ilf vlgrey">Ranging:</div>
-                <div class="vis-cname ilf">No Laser</div>
+            <div class="veh-driver">
+                <div class="veh-ctitle ilf vlgrey">Ranging:</div>
+                <div class="veh-cname ilf">No Laser</div>
             </div>
             <div class="vi-commander">
-                <div class="vis-ctitle ilf vlgrey">Commander:</div>
-                <div class="vis-cname ilf">Optic Only</div>
+                <div class="veh-ctitle ilf vlgrey">Commander:</div>
+                <div class="veh-cname ilf">Optic Only</div>
             </div>
             <div class="vi-speed">
-                <div class="vis-ctitle ilf vlgrey">Rush To Mid:</div>
-                <div class="vis-cname ilf">~36.2 km/h (Worst)</div>
+                <div class="veh-ctitle ilf vlgrey">Rush To Mid:</div>
+                <div class="veh-cname ilf">~36.2 km/h (Worst)</div>
             </div>
             <div class="vi-seats">
-                <div class="vis-ctitle ilf vlgrey">Seating:</div>
-                <div class="vis-cname ilf">3 Crewman + 5</div>
+                <div class="veh-ctitle ilf vlgrey">Seating:</div>
+                <div class="veh-cname ilf">3 Crewman + 5</div>
             </div>
         </div>
         <div class="vehicle-data-group">
-            <div class="vi-title">Extra Infomation</div>
+            <div class="veh-title">Extra Infomation</div>
             <div class="vi-quirks">
-                <div class="vis-ctitle ilf vlgrey">Quirks:</div>
-                <div class="vis-cname ilf">Has two ammo racks, if either dies you die.</div>
+                <div class="veh-ctitle ilf vlgrey">Quirks:</div>
+                <div class="veh-cname ilf">Has two ammo racks, if either dies you die.</div>
             </div>
             <div class="vi-hullhp">
-                <div class="vis-ctitle ilf vlgrey">Hull HP:</div>
-                <div class="vis-cname ilf">3000HP</div>
+                <div class="veh-ctitle ilf vlgrey">Hull HP:</div>
+                <div class="veh-cname ilf">3000HP</div>
             </div>
             <div class="vi-other-names">
-                <div class="vis-ctitle ilf vlgrey">Other Names:</div>
-                <div class="vis-cname ilf">Tank, MBT (Main Battle Tank)</div>
+                <div class="veh-ctitle ilf vlgrey">Other Names:</div>
+                <div class="veh-cname ilf">Tank, MBT (Main Battle Tank)</div>
             </div>
-            <div class="vi-tickets">
-                <div class="vis-ctitle ilf vlgrey">Tickets</div>
-                <div class="vis-cname ilf">15</div>
+            <div class="veh-tickets">
+                <div class="veh-ctitle ilf vlgrey">Tickets</div>
+                <div class="veh-cname ilf">15</div>
             </div>
-            <div class="vi-tickets">
-                <div class="vis-ctitle ilf vlgrey">Respawn:</div>
-                <div class="vis-cname ilf">20 Minutes (typically) [Sometimes Different]</div>
+            <div class="veh-tickets">
+                <div class="veh-ctitle ilf vlgrey">Respawn:</div>
+                <div class="veh-cname ilf">20 Minutes (typically) [Sometimes Different]</div>
             </div>
         </div>
     </div>
-    <div class="weak-section">
-        <div class="weak-spots">
-            <div class="cat-title">How The Optic Works</div>
-            <div class="vehicle-img">
+    <div class="veh-weak-section">
+        <div class="veh-weak-spots">
+            <div class="veh-title">How The Optic Works</div>
+            <div class="veh-img">
                 <a type="button" href="../assets/images/infographics/t62-ret.png">
                     <img class="vic-img" src="../assets/images/infographics/t62-ret.png">
                 </a>

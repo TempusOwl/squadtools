@@ -32,5 +32,5 @@ This project is not monetized in any way.
   - LiQ Gaming https://liqgaming.com/ (For All The Feedback)
   - SquadMaps.com https://github.com/Napster653/SquadMaps (Running A Fork)
   - The older vehicle images https://squad.fandom.com/wiki/Vehicles (Various Authors).
-  - SquadMortar.xyz https://gitlab.com/squadstrat/squadmortar (Linking To It)
+  - squadcalc.app https://gitlab.com/squadstrat/squadmortar (Linking To It)
   

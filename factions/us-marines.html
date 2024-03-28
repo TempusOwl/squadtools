@@ -24,8 +24,8 @@
     </script>
 </head>
 
-<div class="news">Tanks are updated, INS faction info will be updated soon!<a
-        href="https://github.com/TempusOwl/squadtools/issues/new">Github
+<div class="news">Sorry for the delay, still rewritting large parts of the site before updates. Links are fixed now as
+    of 7.2.1!<a href="https://github.com/TempusOwl/squadtools/issues/new">Github
         Issues</a></div>
 
 <body>
@@ -58,7 +58,7 @@
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item"
-                                    href="https://docs.google.com/document/d/1oG8JDQp0Ek0I4E6OsRm4PS9X1T48p3x24HMdEC-vgDQ/edit?usp=sharing">IFV/APCs</a>
+                                    href="https://docs.google.com/spreadsheets/d/1_yR6K6eN6RzJne-JSzaEVTSCF1QXcUMQqACtl8qxzBE/edit?usp=sharing">Vehicle Combat Charts</a>
                             </li>
                         </ul>
                     </li>
@@ -92,15 +92,16 @@
                             Guides & Tools
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="../guides/basic-guides.html">Gameplay Guides</a>
+                            <li><a class="dropdown-item" href="../guides/gameplay.html">Gameplay Guides</a>
                             </li>
-                            <li><a class="dropdown-item" href="../guides/advanced-guides.html">Advanced Guides</a></li>
-                            <li><a class="dropdown-item" href="../guides/map-guides.html">Map Guides</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://docs.google.com/document/d/1yqjieAYuK3Ieir__B_ZBvNDkPTPoT5w_u1D1WV8vn4Y/edit?usp=sharing">Squad
+                                    Leading</a>
+                            </li>
                             <li><a class="dropdown-item" href="../guides/optic-guides.html">Optics & Ranging</a></li>
-<li>
+                            <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="https://squadmortar.xyz/">Mortar Calculator</a></li>
                             <li><a class="dropdown-item" href="../guides/troubleshooting.html">Troubleshooting &
                                     Bugs</a>
                             </li>
@@ -110,124 +111,132 @@
             </div>
         </div>
     </nav>
-    <div class="content">
-        <div class="faction-bar">
-            <img src="../assets/images/us-marines/us_flag.webp" alt="Girl in a jacket">
-            <div class="faction-name">
-                <h2 class="title-bold">United States Marines (Bluefor)</h2>
-            </div>
-        </div>
-        <div class="faction-data">
-            <div class="fac-cat"">
+    <div class="faction-bar">
+        <img src="../assets/images/us-marines/us_flag.webp" alt="Girl in a jacket">
+        <h2 class="fac-title-bold">United States Marines (Bluefor)</h2>
+    </div>
+    <div class="faction-data">
+        <div class="fac-category"">
                 <div class=" fac-title">Logisitcs</div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_logistics.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    M939 Logistics
-                </div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_logistics.webp);">
             </div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_aavp71alogi.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    AAVP-71A (Logi)
-                </div>
-            </div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_rhiblogi.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    RHIB Logi.
-                </div>
+            <div class="fac-name">
+                M939 Logistics
             </div>
         </div>
-        <div class="fac-cat">
-            <div class="fac-title">Transports</div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_transport.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    M939 Transport
-                </div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_aavp71alogi.webp);">
             </div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_rhibtans.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    RHIB Transport
-                </div>
+            <div class="fac-name">
+                AAVP-71A (Logi)
             </div>
         </div>
-        <div class="fac-cat">
-            <div class="fac-title">Light Attack</div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_m1151m2armored.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    M1151 M2 (Humvee)
-                </div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_rhiblogi.webp);">
             </div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_m1151m2open.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    M1151 M2 (Humvee)
-                </div>
-            </div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_m1151m2hb.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    M1151 (Humvee RWS/CROWS)
-                </div>
-            </div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_rhibm2.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    RHIB M2
-                </div>
-            </div>
-        </div>
-        <div class="fac-cat">
-            <div class="fac-title">APC</div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_aavp71a.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    AAV-71A
-                </div>
-            </div>
-        </div>
-        <div class="fac-cat">
-            <div class="fac-title">IFV</div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_lav25.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    LAV-25
-                </div>
-            </div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_coyote.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    Coyote
-                </div>
-            </div>
-        </div>
-        <div class="fac-cat">
-            <div class="fac-title">MBT</div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_m1a2.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    M1A2 (Abrams)
-                </div>
-            </div>
-        </div>
-        <div class="fac-cat">
-            <div class="fac-title">Heli</div>
-            <div class="fac-box">
-                <img class="fac-img" src="..\assets\images\us-marines\us_uh1y.webp" alt="Girl in a jacket">
-                <div class="fac-name">
-                    UH-1Y (Venom)
-                </div>
+            <div class="fac-name">
+                RHIB Logi.
             </div>
         </div>
     </div>
-
+    <div class="fac-category">
+        <div class="fac-title">Transports</div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_transport.webp);">
+            </div>
+            <div class="fac-name">
+                M939 Transport
+            </div>
+        </div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_rhibtans.webp);">
+            </div>
+            <div class="fac-name">
+                RHIB Transport
+            </div>
+        </div>
     </div>
-
-    <div class="fac-title-h2">About Faction</div>
+    <div class="fac-category">
+        <div class="fac-title">Light Attack</div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_m1151m2armored.webp);">
+            </div>
+            <div class="fac-name">
+                M1151 M2 (Humvee)
+            </div>
+        </div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_m1151m2open.webp);">
+            </div>
+            <div class="fac-name">
+                M1151 M2 (Humvee)
+            </div>
+        </div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_m1151m2hb.webp);">
+            </div>
+            <div class="fac-name">
+                M1151 (Humvee RWS/CROWS)
+            </div>
+        </div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_rhibm2.webp);">
+            </div>
+            <div class="fac-name">
+                RHIB M2
+            </div>
+        </div>
+    </div>
+    <div class="fac-category">
+        <div class="fac-title">APC</div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_aavp71a.webp);">
+            </div>
+            <div class="fac-name">
+                AAV-71A
+            </div>
+        </div>
+    </div>
+    <div class="fac-category">
+        <div class="fac-title">IFV</div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_lav25.webp);">
+            </div>
+            <div class="fac-name">
+                LAV-25
+            </div>
+        </div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_coyote.webp);">
+            </div>
+            <div class="fac-name">
+                Coyote
+            </div>
+        </div>
+    </div>
+    <div class="fac-category">
+        <div class="fac-title">MBT</div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_m1a2.webp);">
+            </div>
+            <div class="fac-name">
+                M1A2 (Abrams)
+            </div>
+        </div>
+    </div>
+    <div class="fac-category">
+        <div class="fac-title">Heli</div>
+        <div class="fac-box">
+            <div class="image-box" style="background-image: url(../assets/images/us-marines/us_uh1y.webp);">
+            </div>
+            <div class="fac-name">
+                UH-1Y (Venom)
+            </div>
+        </div>
+    </div>
+    </div>   
+ <div class="fac-title-big">About Faction</div>
     <div class="fac-equip">
         <div class="fac-role">
             <div class="fac-title-box">
@@ -282,20 +291,14 @@
                     hard . The AAVP is horrible to drive and use.
                 </div>
             </div>
-
-
         </div>
     </div>
-
-    </div>
-
-    <div class="fac-title-h2">Faction Identifcation</div>
+    <div class="fac-title-big">Faction Identifcation</div>
     <div class="fac-ident">
-        <div class="camo-type">
+        <div class="fac-camo-type">
             <div class="camo-title">General Camo</div>
             <a href="../assets/images/us-marines/us_camo_woodland.png">
                 <img class="camo-img" src="../assets/images/us-marines/us_camo_woodland.png">
-            </a>
         </div>
     </div>
     <div class="footer">
