@@ -670,10 +670,6 @@ P {
 }
 
 @media screen and (min-width: 4001px) {
-  .fac-img {
-    width: 300px;
-  }
-
   .fac-name {
     background: #2c2d35;
     font-size: 1.25em;
@@ -720,10 +716,6 @@ P {
 }
 
 @media screen and (min-width: 2501px) and (max-width: 4000px) {
-  .fac-img {
-    width: 300px;
-  }
-
   .fac-name {
     background: #2c2d35;
     font-size: 1.25em;
@@ -770,10 +762,6 @@ P {
 }
 
 @media screen and (min-width: 2000px) and (max-width: 2450px) {
-  .fac-img {
-    width: 250px;
-  }
-
   .fac-name {
     background: #2c2d35;
     font-size: 1.25em;
@@ -982,10 +970,6 @@ P {
 
   .faction-data {
     display: block;
-    width: 100%;
-  }
-
-  .fac-img {
     width: 100%;
   }
 
